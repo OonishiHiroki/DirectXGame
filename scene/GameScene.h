@@ -22,6 +22,12 @@ class GameScene {
 	/// </summary>
 	GameScene();
 
+	//ワールドトランスフォーム
+	WorldTransform worldTransform_;
+
+	//ビュープロテクション
+	ViewProjection viewProjection_;
+
 	/// <summary>
 	/// デストラクタ
 	/// </summary>
@@ -47,6 +53,12 @@ class GameScene {
 	Input* input_ = nullptr;
 	Audio* audio_ = nullptr;
 	DebugText* debugText_ = nullptr;
+	uint32_t textureHandle_ = 0;
+	Sprite* sprite_ = nullptr;
+	uint32_t soundDataHandle_ = 0;
+	uint32_t voiceHandle_ = 0;
+	Model* model_ = nullptr;
+	uint32_t value_ = 0;
 
 	/// <summary>
 	/// ゲームシーン用
