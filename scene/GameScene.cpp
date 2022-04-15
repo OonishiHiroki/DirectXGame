@@ -47,7 +47,6 @@ void GameScene::Update() {
 		audio_->StopWave(voiceHandle_);
 	}
 	//デバックテキストの表示
-	//debugText_->Print("Kaizokuou ni orehanaru.",50,90,1.0f);
 	//書式指定付き表示
 	debugText_->SetPos(50, 70);
 	//debugText_->Printf("year:%d", 2001);
