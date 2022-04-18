@@ -13,6 +13,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	Input* input = nullptr;
 	Audio* audio = nullptr;
 	DebugText* debugText = nullptr;
+	DebugText* debugText2 = nullptr;
+	DebugText* debugText3 = nullptr;
 	AxisIndicator* axisIndicator = nullptr;
 	GameScene* gameScene = nullptr;
 
